@@ -5,20 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!--header-->
     <header>
         <img src="asset/logo-black.png" alt="">
-        <a href="L'agence"></a><a href="Les projets"></a><a href="Léquipe"></a><a href="La communauté"></a>
+        <nav>
+            <ul>
+                <li>l'agence</li>
+                <li><a href="#Projet">projets</a></li>
+                <li>L'équipe</li>
+                <li>La communauté</li>
+            </ul>
+        </nav>
     </header>
-    <!--Créateur de temps-->
-    <section>
-        <img src="asset/bg-image-hero.png" alt="">
-        <h2>Créateurs d'espaces minimalistes et intemporels</h2>
-        <p>Créateurs d'espaces minimalistes et fonctionnels, notre équipe fusionne une esthétique épurée avec une
+    <!--Créateur de temps première partie-->
+    <section class="section-hero">
+        <h2 class="blanc">Créateurs d'espaces minimalistes et intemporels</h2>
+        <p class="blanc">Créateurs d'espaces minimalistes et fonctionnels, notre équipe fusionne une esthétique épurée
+            avec une
             attention minutieuse aux détails.</p>
     </section>
+    <!--Less is more seconde partie-->
     <section>
         <h2>Less is more</h2>
         <p>L’approche minimaliste nous permet de construire des espaces qui vous offrent une expérience intense tout en
@@ -43,9 +53,9 @@
             <a href=""></a>
         </div>
     </section>
-    <section>
-        <h2>Ils nous ont fait confiance</h2>
-        <img src="asset/bg-image-2.png" alt="">
+    <!--Ils nous ont fait confiance troisième partie-->
+    <section class="background-2">
+        <h2 class="blanc">Ils nous ont fait confiance</h2>
         <img src="asset/maison-du-monde.png" alt="">
         <img src="asset/ibm.png" alt="">
         <img src="asset/netflix.png" alt="">
@@ -54,29 +64,37 @@
     </section>
     <!--Nos projet-->
     <section>
-        <div>
-            <img src="asset/img1-lumiere-Epuree.png" alt="">
-            <h3>Lumière épurée</h3>
-            <p>Résidence contemporaine baignée de lumière naturelle, caractérisée par des lignes épurées et des espaces
-                ouverts</p>
-        </div>
+        <a href="index2.html" class="soulignement-lien">
+            <div>
+                <h2 id="Projet">Nos projets</h2>
+                <img src="asset/img1-lumiere-Epuree.png" alt="">
+                <h3>Lumière épurée</h3>
+                <p>Résidence contemporaine baignée de lumière naturelle, caractérisée par des lignes épurées et des
+                    espaces
+                    ouverts</p>
+            </div>
+        </a>
         <div>
             <img src="asset/img-galerie-2.png" alt="">
             <h3>Reflet urbain</h3>
-            <p>Complexe architectural novateur qui intègre des éléments de verre et de métal pour créer une juxtaposition saisissante</p>
+            <p>Complexe architectural novateur qui intègre des éléments de verre et de métal pour créer une
+                juxtaposition saisissante</p>
         </div>
         <div>
             <img src="asset/img-galerie-3.png" alt="">
             <h3>oasis urbaine</h3>
-            <p>Un développement résidentiel axé sur la durabilité, offrant des espaces verts luxuriants et des jardins communautaires.</p>
+            <p>Un développement résidentiel axé sur la durabilité, offrant des espaces verts luxuriants et des jardins
+                communautaires.</p>
         </div>
     </section>
     <div>
         <img src="asset/img-galerie-4.png" alt="">
         <h3>Résurgence naturelle</h3>
-        <p>Rénovation écologique d'un bâtiment historique, intégrant des technologies de pointe en matière d'énergie renouvelable</p>
+        <p>Rénovation écologique d'un bâtiment historique, intégrant des technologies de pointe en matière d'énergie
+            renouvelable</p>
     </div>
     </section>
+    <!--fin de page-->
     <footer>
         <img src="asset/logo-white.png" alt="">
         <p> Monochrome Studio</p>
