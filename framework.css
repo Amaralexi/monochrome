@@ -1,92 +1,10 @@
-*{
+/*RESET*/
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Rubik",sans-serif;
-}
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
-.section-hero {
-    background-image: url("asset/bg-image-hero.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-
-    /*100% de la hauteur de l'écran*/
-}
-
-.background-grey{
-    background-color: grey;
-}
-
-.blanc {
-    color: white;
-}
-
-.background-2 {
-    background-image: url("asset/bg-image-2.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 50vh;
-}
-
-.soulignement-lien {
-    text-decoration: none;
-    color: black;
-}
-.btn{
-    display: inline-block;
-    background-color: grey;
-    padding: 16px 32px;
-    color: white;
-    border-radius: 5px;
-}
-/*Flex box*/
-.flex {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.spacebetween {
-    justify-content: space-between;
-}
-
-.gap {
-    gap: 20px;
-}
-
-/*Texte*/
-a {
     text-decoration: none;
 }
-
-.black {
-    color: black;
-}
-.gras{
-    font-weight: 600;
-}
-/*MARGIN ET PADDING*/
-.p-20{
-    padding: 20px;
-}
-.margin20{
-    margin-bottom: 10px;
-}
-
-
-
-/*taille*/
-.w40{
-    width: 40%;
-}
-.w30{
-    width: 30%;
-}
-
-
-
-
 
 /*TEXTE*/
 
@@ -165,11 +83,6 @@ a {
     justify-content: center;
 }
 
-
-.align-contentend{
-    align-content: flex-end;
-}
-
 .gap8 {
     gap: 8px;
 }
@@ -180,10 +93,6 @@ a {
 
 .gap32 {
     gap: 32px;
-}
-
-.gap48{
-    gap: 48px;
 }
 
 /*margin et padding*/
@@ -219,7 +128,7 @@ a {
 /*container*/
 
 .container1200{
-    max-width: auto;
+    max-width: 1200px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
