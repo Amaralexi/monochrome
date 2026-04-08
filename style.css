@@ -165,6 +165,10 @@ a {
     justify-content: center;
 }
 
+.space-around{
+    justify-content: space-around;
+}
+
 
 .align-contentend{
     align-content: flex-end;
